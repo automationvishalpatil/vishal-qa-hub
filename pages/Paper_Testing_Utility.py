@@ -4,7 +4,7 @@ from deepdiff import DeepDiff
 
 # --- UI Setup ---
 st.set_page_config(
-    page_title="JSON Comparator",
+    page_title="Paper_Testing_Utility",
     layout="wide"
 )
 
@@ -89,3 +89,4 @@ if st.button("Compare Now"):
 # Footer
 st.markdown("---")
 st.markdown("<p style='text-align:center; color:grey;'>JSON Comparator Tool</p>", unsafe_allow_html=True)
+

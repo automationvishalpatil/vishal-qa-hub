@@ -50,7 +50,7 @@ with col3:
     st.page_link("pages/Test_Data_Dashboard.py", label="FMCT Test Data Portal", icon="⚙️")
 
 with col4:
-    st.page_link("pages/json_comparator.py", label="Paper Testing Tool", icon="⚙️")
+    st.page_link("pages/Paper_Testing_Utility.py", label="Paper Testing Tool", icon="⚙️")
 
 
 # --- Horizontal Rule ---
@@ -58,6 +58,7 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+
 
 
 

@@ -1,4 +1,5 @@
 streamlit
 pandas
 python-docx
-openpyxl  # <-- Added the missing dependency
+openpyxl  # For pandas to handle Excel files
+deepdiff  # For the document testing agent

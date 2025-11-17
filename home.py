@@ -41,7 +41,7 @@ st.subheader("Choose an Automation Tool")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.page_link("pages/json_comparator.py", label="Paper Testing Utility", icon="🤖")
+    st.page_link("pages/Paper_Testing_Utility.py", label="Paper Testing Utility", icon="🤖")
 
 with col2:
     st.page_link("pages/Static_Testing.py", label="API Test", icon="⚙️")
@@ -58,6 +58,7 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+
 
 
 

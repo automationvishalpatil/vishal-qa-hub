@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- UI Setup ---
 st.set_page_config(
-    page_title="VMO2 Automation Portal",
+    page_title="Automation Portal",
     layout="wide"
 )
 
@@ -58,6 +58,7 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+
 
 
 

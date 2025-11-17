@@ -44,7 +44,7 @@ with col1:
     st.page_link("pages/Paper_Testing_Utility.py", label="Paper Testing Utility", icon="🤖")
 
 with col2:
-    st.page_link("pages/Static_Testing.py", label="API Test", icon="⚙️")
+    st.page_link("pages/Static_Testing.py", label="Static Test", icon="⚙️")
 
 with col3:
     st.page_link("pages/Test_Data_Dashboard.py", label="FMCT Test Data Portal", icon="⚙️")
@@ -58,6 +58,7 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+
 
 
 

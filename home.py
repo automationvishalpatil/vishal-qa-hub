@@ -32,7 +32,7 @@ st.markdown("""
 
 # --- Company Logo ---
 # st.image("https://placehold.co/600x150/0072C6/ffffff?text=VMO2+Logo", caption="VMO2 Automation Portal")
-st.image("C:\\Users\\433657\\pySelenium\\image.png", caption="VMO2 Automation Portal")
+st.image("image.png", caption="VMO2 Automation Portal")
 # --- Horizontal Rule ---
 st.markdown("---")
 
@@ -58,3 +58,4 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+

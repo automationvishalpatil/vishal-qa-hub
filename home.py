@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- UI Setup ---
 st.set_page_config(
-    page_title="Automation Portal",
+    page_title="Automation Hub",
     layout="wide"
 )
 
@@ -27,12 +27,12 @@ st.markdown("""
     padding: 20px;
 }
 </style>
-<div class="floating-text">Welcome to Vishal's Automation Runner Portal</div>
+<div class="floating-text">Welcome to Vishal's Automation Hub</div>
 """, unsafe_allow_html=True)
 
 # --- Company Logo ---
-# st.image("https://placehold.co/600x150/0072C6/ffffff?text=VMO2+Logo", caption="VMO2 Automation Portal")
-st.image("image.png", caption="Vishal's Automation Portal")
+# st.image("https://placehold.co/600x150/0072C6/ffffff?text=VMO2+Logo", caption="VMO2 Automation Hub")
+st.image("image.png", caption="Vishal's Automation Hub")
 # --- Horizontal Rule ---
 st.markdown("---")
 
@@ -58,6 +58,7 @@ st.markdown("---")
 
 # --- Copyright Message ---
 st.markdown("<p style='text-align:center; color:grey;'>© 2025 VMO2 Automation. All Rights Reserved.</p>", unsafe_allow_html=True)
+
 
 
 
